@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OH NO! IT'S BOILING ACID!</title>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<div class="video-container">
+    <div class="overlay"></div>
+    <video src="content/video/support/snow2.mp4" loop class="interstitial" onloadeddata="tv.onClipLoaded()" onended="tv.onClipFinished()"></video>
+    <video class="screen" autoplay onloadeddata="tv.onClipLoaded()" onended="tv.onClipFinished()"></video>
+</div>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
